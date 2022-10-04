@@ -1,0 +1,19 @@
+{
+  "name": "cy-singleton-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^10.6.0",
+    "typescript": "^4.8.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.1"
+  },
+  "scripts": {
+    "test": "npx cypress run --spec ./cypress/e2e/spec.cy.ts",
+    "open": "npx cypress open"
+  },
+  "author": "",
+  "license": "ISC"
+}
